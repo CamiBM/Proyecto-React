@@ -52,15 +52,11 @@ class App extends Component {
     return (
       <Fragment>
         <Navbar
-          titulo='Administrador de Pacientes Veterinaria' />
-          
+          titulo='Administrador de Pacientes Veterinaria' />  
         <div className="container mt-5">
           <NuevoTurno
             crearNuevoTurno={this.crearNuevoTurno} />
         </div>
-
-
-
         <ListaTurnos
           turnos={this.state.turnos}
           eliminarTurno={this.eliminarTurno}

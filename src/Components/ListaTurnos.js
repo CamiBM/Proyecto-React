@@ -2,7 +2,7 @@ import React from 'react';
 import Turno from './Turno';
 import report from '../img/medical-report.png'
 
-const ListaTurnos = ({ turnos }) => (
+const ListaTurnos = ({ turnos, eliminarTurno }) => (
 
     <div className="container mt-5 pb-5 mb-5 pt-4 bg-info rounded dates">
         <h4 className="text-light text-center title"><img src={report} className="mr-2" width="35" height="35" alt='report' />Administra las citas aquí<img src={report} className="ml-2" width="35" height="35" alt='report' /></h4>
@@ -11,6 +11,7 @@ const ListaTurnos = ({ turnos }) => (
                 <Turno
                     key={turno.id}
                     turno={turno}
+                    eliminarTurno={eliminarTurno}
                 />
             ))}
         </div>

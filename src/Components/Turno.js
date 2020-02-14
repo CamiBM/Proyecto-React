@@ -13,8 +13,8 @@ const Turno = ({ turno, eliminarTurno }) => (
                 <div className="text-center">
                     <button 
                     className="btn btn-danger mt-3 px-5 py-2"
-                    onClick = {() =>eliminarTurno(turno.id)}>
-                    Eliminar &times;
+                    onClick={ () => eliminarTurno(turno.id)  }
+                    >Eliminar &times;
                     </button>
                 </div>
             </div>
