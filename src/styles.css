@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f3eccf;
+}
+
+.title {
+	font-size: 30px;
+	font-family: 'Galada', cursive;
+}
+
+form {
+
+	background: #771967;
+}
+
+.dataTitles {
+	margin-bottom: 11px;
+}
+
+.dogImage{
+	margin-top: 7rem !important;
+}
+
+
+@media (min-width: 992px) {
+	form {
+		width: 75% !important;
+	}
+
+	.card {
+		width: 20rem !important;
+	}
+	
+}
