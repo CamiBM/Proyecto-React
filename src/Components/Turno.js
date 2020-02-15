@@ -12,7 +12,7 @@ const Turno = ({ turno, eliminarTurno }) => (
                 <p className='dataTitles'><b>Síntomas: </b>{turno.sintomas}</p>
                 <div className="text-center">
                     <button 
-                    className="btn btn-danger mt-3 px-5 py-2"
+                    className="btn btn-danger mt-3"
                     onClick={ () => eliminarTurno(turno.id)  }
                     >Eliminar &times;
                     </button>
