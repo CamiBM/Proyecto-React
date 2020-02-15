@@ -1,6 +1,13 @@
-## Proyecto React - Administracion de Pacientes Veterinaria
+## Proyecto React - Administración de Pacientes Veterinaria
 
-Aplicacion de conceptos basicos de React. 
+Aplicación de conceptos básicos de React. 
+
+![imagen](./src/img/imagen-app.png)
+
+##  
+
+![imagen2](./src/img/imagen-app2.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
