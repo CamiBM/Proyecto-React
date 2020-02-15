@@ -3,7 +3,8 @@ import React from 'react';
 
 const Turno = ({ turno, eliminarTurno }) => (
  
-        <div className="card w-50 mt-5 ml-4">
+    <div className="col-lg-6">
+        <div className="card w-75 mt-5 ml-5">
             <div className="card-body">
                 <p className='dataTitles'><b>Nombre de la mascota: </b>{turno.mascota}</p>
                 <p className='dataTitles'><b>Dueño de la mascota: </b>{turno.dueño}</p>
@@ -19,7 +20,7 @@ const Turno = ({ turno, eliminarTurno }) => (
                 </div>
             </div>
         </div>
-    
+    </div>
 );
 
 

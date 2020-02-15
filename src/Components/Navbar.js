@@ -7,7 +7,7 @@ const Navbar = ({titulo}) => (
     
     	<nav className="navbar text-light bg-info p-3 ">
 		<div className="container">
-			<a className="mx-auto title"><img src={pet} width="40" height="40" className="d-inline-block align-top mr-3" alt="dog"/>{titulo}</a>	
+			<a className="mx-auto title"><img src={pet} width="30" height="30" className="d-inline-block align-top mr-3 imgLg" alt="dog"/>{titulo}</a>	
 		</div>
 	    </nav>
     
